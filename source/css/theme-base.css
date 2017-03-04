@@ -378,7 +378,7 @@ nav .main-menu .dropdown-submenu > span.dropdown-menu-title-only {
     margin-left: 0;
     margin-right: 0;
     outline: medium none;
-    padding: 10px;
+    padding: 10px 22px 10px 22px;
     text-transform: uppercase;
     transition: all 0.3s ease-in-out 0s;
 }
@@ -4136,7 +4136,7 @@ body:not(.device-sm):not(.device-xs):not(.device-xxs) .post-4-columns.post-moder
 }
 
 /* ----------------------------------------------------------------------
-    POST NEWS THUMBNAIL BOXES 
+    POST NEWS THUMBNAIL BOXES
 -------------------------------------------------------------------------*/
 
 .post-thumbnail .post-thumbnail-entry > img {
@@ -4395,9 +4395,9 @@ body:not(.no-page-loader) .wrapper,
         margin-right: 0;
         width: 49.99%;
     }
-    
 
-    
+
+
 
     .col-md-5,
     .col-md-6,
@@ -4415,7 +4415,7 @@ body:not(.no-page-loader) .wrapper,
         margin-right: 0;
         width: 50%;
     }
-    
+
     .col-sm-7,
     .col-sm-8,
     .col-sm-9,
