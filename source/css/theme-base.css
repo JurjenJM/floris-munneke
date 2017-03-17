@@ -4705,3 +4705,10 @@ body:not(.no-page-loader) .wrapper,
     height: 100px;
     float: left;
 }
+
+
+/*nieuwe classes*/
+
+.align-left {
+  text-align: left;
+}
