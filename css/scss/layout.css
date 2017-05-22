@@ -1,0 +1,80 @@
+/* ----------------------------------------------------------------
+    BODY
+-----------------------------------------------------------------*/
+/* line 10, ../css/scss/layout.scss */
+html {
+  overflow-x: hidden !important; }
+
+/* line 13, ../css/scss/layout.scss */
+body {
+  color: #333;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  overflow-x: hidden;
+  padding: 0 !important; }
+
+/* Layout boxed & wide */
+@media (max-width: 479px) {
+  /* line 24, ../css/scss/layout.scss */
+  .container {
+    padding: 0 20px; } }
+/* line 30, ../css/scss/layout.scss */
+body.wide .wrapper {
+  width: 100%;
+  margin: 0; }
+/* line 35, ../css/scss/layout.scss */
+body.boxed .wrapper, body.boxed-simple .wrapper {
+  position: relative;
+  border: 1px solid #eee;
+  background-color: #fff; }
+/* line 41, ../css/scss/layout.scss */
+body.outter {
+  margin: 30px; }
+/* line 44, ../css/scss/layout.scss */
+body.boxed-simple {
+  background-color: #f8f8f8;
+  border: 0 none !important; }
+
+/* Responsive */
+@media (max-width: 479px) {
+  /* line 51, ../css/scss/layout.scss */
+  body {
+    font-size: 13px; }
+    /* line 53, ../css/scss/layout.scss */
+    body .outter {
+      margin: 0px; } }
+/* line 58, ../css/scss/layout.scss */
+a {
+  color: #111;
+  text-decoration: none !important; }
+  /* line 61, ../css/scss/layout.scss */
+  a:focus {
+    outline: none; }
+
+/* line 65, ../css/scss/layout.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline; }
+
+/* line 72, ../css/scss/layout.scss */
+iframe {
+  border: none; }
+
+/* Sections */
+/* line 78, ../css/scss/layout.scss */
+section {
+  padding: 80px 0;
+  position: relative;
+  z-index: auto;
+  width: 100%;
+  overflow: hidden; }
+
+/* Panles */
+/* line 88, ../css/scss/layout.scss */
+.panel .table th,
+.panel .table td {
+  padding-left: 20px !important; }

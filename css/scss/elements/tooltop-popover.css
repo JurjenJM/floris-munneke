@@ -1,0 +1,54 @@
+/* line 5, ../css/scss/elements/tooltop-popover.scss */
+.tooltip-inner {
+  padding: 12px 20px; }
+
+/* line 8, ../css/scss/elements/tooltop-popover.scss */
+.tooltip.left .tooltip-arrow {
+  right: 1px; }
+
+/* line 14, ../css/scss/elements/tooltop-popover.scss */
+.popover {
+  border-radius: 0;
+  border: none;
+  background-color: #fcfcfc;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  color: #667;
+  padding: 3px 3px 8px; }
+  /* line 21, ../css/scss/elements/tooltop-popover.scss */
+  .popover > .arrow {
+    border-color: transparent !important; }
+
+/* line 25, ../css/scss/elements/tooltop-popover.scss */
+.popover-content {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400 !important;
+  padding-top: 0; }
+
+/* line 30, ../css/scss/elements/tooltop-popover.scss */
+.popover-title {
+  padding: 18px 14px 0;
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  background-color: inherit;
+  border-bottom: none;
+  border-radius: 0; }
+  /* line 39, ../css/scss/elements/tooltop-popover.scss */
+  .popover-title::after {
+    border-top: 1px solid #eee;
+    content: "";
+    display: block;
+    height: 1px;
+    margin: 12px 0 5px;
+    width: 100%; }
+
+/* line 49, ../css/scss/elements/tooltop-popover.scss */
+.popover-content > img,
+.popover-content iframe {
+  width: 100%;
+  height: auto !important;
+  margin-top: 10px; }
+/* line 55, ../css/scss/elements/tooltop-popover.scss */
+.popover-content iframe {
+  background: url(../images/loading.gif) center center no-repeat; }

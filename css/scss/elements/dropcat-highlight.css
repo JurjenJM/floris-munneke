@@ -1,0 +1,43 @@
+/* line 6, ../css/scss/elements/dropcat-highlight.scss */
+.dropcap {
+  background: none repeat scroll 0 0 #eee;
+  border-radius: 4px;
+  display: inline-block;
+  float: left;
+  font-size: 20px;
+  height: 40px;
+  line-height: 40px;
+  margin: 3px 10px 0 0;
+  text-align: center;
+  width: 40px; }
+  /* line 17, ../css/scss/elements/dropcat-highlight.scss */
+  .dropcap.dropcap-circle {
+    border-radius: 50%; }
+  /* line 20, ../css/scss/elements/dropcat-highlight.scss */
+  .dropcap.dropcap-large {
+    font-size: 44px;
+    height: 80px;
+    line-height: 80px;
+    width: 80px; }
+  /* line 26, ../css/scss/elements/dropcat-highlight.scss */
+  .dropcap.dropcap-small {
+    font-size: 16px;
+    height: 20px;
+    line-height: 20px;
+    margin: 3px 5px -3px 0;
+    width: 21px; }
+
+/* line 34, ../css/scss/elements/dropcat-highlight.scss */
+span.highlight {
+  padding: 0 5px; }
+
+/* line 38, ../css/scss/elements/dropcat-highlight.scss */
+.highlight a {
+  color: #333; }
+/* line 41, ../css/scss/elements/dropcat-highlight.scss */
+.highlight.highlight-large {
+  font-size: 20px; }
+/* line 44, ../css/scss/elements/dropcat-highlight.scss */
+.highlight.highlight-small {
+  font-size: 12px;
+  padding: 0 7px; }

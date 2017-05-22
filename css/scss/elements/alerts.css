@@ -1,0 +1,6 @@
+/* line 6, ../css/scss/elements/alerts.scss */
+.alert > p {
+  color: #fff; }
+/* line 9, ../css/scss/elements/alerts.scss */
+.alert.animated {
+  z-index: 999999 !important; }

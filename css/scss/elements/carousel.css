@@ -1,0 +1,268 @@
+/* ----------------------------------------------------------------
+Carousels
+-----------------------------------------------------------------*/
+/* line 5, ../css/scss/elements/carousel.scss */
+.carousel.fullwidth {
+  padding: 0 15px; }
+
+/* line 9, ../css/scss/elements/carousel.scss */
+.slider-content img {
+  width: auto !important; }
+
+/* line 13, ../css/scss/elements/carousel.scss */
+.owl-carousel .fluid-width-video-wrapper {
+  min-height: 150px; }
+
+/* line 17, ../css/scss/elements/carousel.scss */
+.post-carousel .image-box {
+  height: 151px; }
+
+/*Half size height slider*/
+/* line 23, ../css/scss/elements/carousel.scss */
+.carousel.slider-size-half .owl-item img {
+  margin-top: -10%; }
+
+/* line 27, ../css/scss/elements/carousel.scss */
+.owl-bg-img {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  width: 100%; }
+
+/*slider title and content*/
+/* line 39, ../css/scss/elements/carousel.scss */
+.owl-item .slider-content {
+  opacity: 0;
+  padding: 0; }
+
+/*carousel video*/
+/* line 46, ../css/scss/elements/carousel.scss */
+.item-video {
+  height: 420px; }
+
+/* ----------------------------------------------------------------
+Carousel Nav
+-----------------------------------------------------------------*/
+/* line 56, ../css/scss/elements/carousel.scss */
+.owl-theme.pagination-top .owl-dots {
+  margin-top: -4px; }
+/* line 59, ../css/scss/elements/carousel.scss */
+.owl-theme.pagination-top .owl-controls {
+  position: absolute;
+  right: 13px;
+  top: 0px;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  opacity: 0.9; }
+  /* line 66, ../css/scss/elements/carousel.scss */
+  .owl-theme.pagination-top .owl-controls:hover {
+    opacity: 1; }
+/* line 71, ../css/scss/elements/carousel.scss */
+.owl-theme .owl-dots {
+  text-align: center;
+  margin-top: 30px; }
+  /* line 74, ../css/scss/elements/carousel.scss */
+  .owl-theme .owl-dots .owl-dot {
+    height: 10px;
+    margin: 0 5px;
+    position: relative;
+    width: 10px;
+    display: inline-block; }
+    /* line 80, ../css/scss/elements/carousel.scss */
+    .owl-theme .owl-dots .owl-dot span {
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      outline: none;
+      border-radius: 50%;
+      background-color: #eee;
+      text-indent: -999em;
+      cursor: pointer;
+      position: absolute;
+      overflow: hidden;
+      background-color: transparent;
+      box-shadow: inset 0 0 0 1px #bbb;
+      -webkit-transition: opacity 0.3s ease;
+      transition: opacity 0.3s ease; }
+      /* line 96, ../css/scss/elements/carousel.scss */
+      .owl-theme .owl-dots .owl-dot span:focus {
+        outline: none; }
+      /* line 99, ../css/scss/elements/carousel.scss */
+      .owl-theme .owl-dots .owl-dot span::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        border-radius: 50%;
+        background-color: #aaa;
+        -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+        transform: scale(0);
+        -webkit-transform-origin: 50% 50%;
+        -ms-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+        -webkit-transition: -webkit-transform 0.3s ease;
+        transition: transform 0.3s ease; }
+      /* line 116, ../css/scss/elements/carousel.scss */
+      .owl-theme .owl-dots .owl-dot span:hover, .owl-theme .owl-dots .owl-dot span:focus {
+        opacity: 0.7; }
+    /* line 120, ../css/scss/elements/carousel.scss */
+    .owl-theme .owl-dots .owl-dot.active span::after {
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1); }
+/* line 128, ../css/scss/elements/carousel.scss */
+.owl-theme.pagination-top .owl-controls {
+  position: absolute;
+  right: 13px;
+  top: 13px;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  opacity: 0.9; }
+  /* line 135, ../css/scss/elements/carousel.scss */
+  .owl-theme.pagination-top .owl-controls:hover {
+    opacity: 1; }
+/* line 139, ../css/scss/elements/carousel.scss */
+.owl-theme.pagination-top .owl-dots .owl-dot span {
+  box-shadow: inset 0 0 0 1px #fff; }
+  /* line 141, ../css/scss/elements/carousel.scss */
+  .owl-theme.pagination-top .owl-dots .owl-dot span::after {
+    background-color: #fff; }
+
+/*dot nav*/
+/*owl dots top*/
+/*owl nav*/
+/* line 154, ../css/scss/elements/carousel.scss */
+.owl-controls .owl-nav {
+  opacity: 0;
+  -webkit-transition: opacity .3s ease-in-out;
+  transition: opacity 0.3s ease-in-out; }
+
+/* line 160, ../css/scss/elements/carousel.scss */
+.owl-carousel:hover .owl-controls .owl-nav {
+  opacity: 1; }
+
+/* line 165, ../css/scss/elements/carousel.scss */
+.owl-theme .owl-controls .owl-nav div {
+  padding: 5px 9px; }
+/* line 168, ../css/scss/elements/carousel.scss */
+.owl-theme .owl-controls .owl-nav .owl-prev i, .owl-theme .owl-controls .owl-nav .owl-next i {
+  line-height: 66px; }
+/* line 171, ../css/scss/elements/carousel.scss */
+.owl-theme .owl-controls .owl-nav div {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.4); }
+
+/* line 180, ../css/scss/elements/carousel.scss */
+.owl-carousel .owl-controls .owl-nav .owl-prev {
+  left: 20px; }
+/* line 183, ../css/scss/elements/carousel.scss */
+.owl-carousel .owl-controls .owl-nav .owl-next {
+  right: 20px;
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  font-size: 18px;
+  height: 75px;
+  position: absolute;
+  text-align: center;
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  width: 35px;
+  cursor: pointer;
+  cursor: hand;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+/* line 202, ../css/scss/elements/carousel.scss */
+.owl-carousel .owl-controls .owl-nav .owl-prev {
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  font-size: 18px;
+  height: 75px;
+  position: absolute;
+  text-align: center;
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  width: 35px;
+  cursor: pointer;
+  cursor: hand;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+/*team carousel*/
+/* line 225, ../css/scss/elements/carousel.scss */
+.carousel-description-style .description {
+  margin-bottom: 30px; }
+  /* line 227, ../css/scss/elements/carousel.scss */
+  .carousel-description-style .description h2 {
+    margin-top: 0;
+    padding-right: 74px; }
+/* line 232, ../css/scss/elements/carousel.scss */
+.carousel-description-style .image-box-description h4 {
+  margin-bottom: 0; }
+/* line 235, ../css/scss/elements/carousel.scss */
+.carousel-description-style .owl-controls .owl-nav {
+  opacity: 1; }
+/* line 239, ../css/scss/elements/carousel.scss */
+.carousel-description-style .owl-theme .owl-controls .owl-nav .owl-next {
+  left: -65px;
+  top: 0;
+  border-radius: 0 2px 2px 0; }
+/* line 244, ../css/scss/elements/carousel.scss */
+.carousel-description-style .owl-theme .owl-controls .owl-nav .owl-prev {
+  left: -100px;
+  top: 0;
+  border-radius: 2px 0 0 2px; }
+  /* line 248, ../css/scss/elements/carousel.scss */
+  .carousel-description-style .owl-theme .owl-controls .owl-nav .owl-prev i {
+    line-height: 1; }
+/* line 252, ../css/scss/elements/carousel.scss */
+.carousel-description-style .owl-theme .owl-controls .owl-nav .owl-next i {
+  line-height: 1; }
+/* line 257, ../css/scss/elements/carousel.scss */
+.carousel-description-style .owl-carousel .owl-controls .owl-nav .owl-next, .carousel-description-style .owl-carousel .owl-controls .owl-nav .owl-prev {
+  background: #00c0e9;
+  color: #fff;
+  font-size: 15px;
+  height: 36px; }
+
+/*nav team carousel*/
+/* line 269, ../css/scss/elements/carousel.scss */
+.owl-carousel .owl-controls .owl-nav .owl-next:hover, .owl-carousel .owl-controls .owl-nav .owl-prev:hover {
+  opacity: 0.6; }
+
+/*carousel fixes*/
+/* line 276, ../css/scss/elements/carousel.scss */
+.owl-stage .owl-item:last-child {
+  margin-right: 0 !important; }
+
+/* line 280, ../css/scss/elements/carousel.scss */
+.carousel .image-box-description {
+  margin-bottom: -10px; }
+
+/* ----------------------------------------------------------------
+    Post Carousel & Controls
+-----------------------------------------------------------------*/
+/* line 288, ../css/scss/elements/carousel.scss */
+.post-mini-slider .owl-controls {
+  bottom: 6px;
+  position: absolute;
+  right: 10px; }
+  /* line 292, ../css/scss/elements/carousel.scss */
+  .post-mini-slider .owl-controls .owl-dot span {
+    box-shadow: 0 0 0 1px #fff inset; }
+    /* line 294, ../css/scss/elements/carousel.scss */
+    .post-mini-slider .owl-controls .owl-dot span:after {
+      background-color: #fff; }

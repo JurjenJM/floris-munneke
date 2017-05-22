@@ -1,0 +1,34 @@
+/*------------------------------------------------------
+     Comments
+------------------------------------------------------*/
+/* line 5, ../css/scss/comments.scss */
+.comments {
+  margin-bottom: 80px;
+  margin-top: 28px; }
+  /* line 8, ../css/scss/comments.scss */
+  .comments .avatar {
+    border-radius: 4px;
+    margin-right: 15px;
+    width: 50px; }
+
+/* line 14, ../css/scss/comments.scss */
+.comments-title {
+  text-transform: uppercase;
+  margin-bottom: 20px; }
+
+/* line 18, ../css/scss/comments.scss */
+.comment {
+  margin-top: 40px;
+  margin-bottom: 20px; }
+  /* line 21, ../css/scss/comments.scss */
+  .comment .media-body {
+    border: 1px solid #eee;
+    border-radius: 4px;
+    padding: 20px; }
+  /* line 26, ../css/scss/comments.scss */
+  .comment .time {
+    margin-bottom: 20px; }
+
+/* line 30, ../css/scss/comments.scss */
+.comment-replied {
+  padding-left: 40px; }

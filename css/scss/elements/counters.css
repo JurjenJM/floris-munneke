@@ -1,0 +1,36 @@
+/* line 6, ../css/scss/elements/counters.scss */
+.counter {
+  margin-bottom: 20px; }
+  /* line 8, ../css/scss/elements/counters.scss */
+  .counter span {
+    font-size: 50px;
+    line-height: 40px; }
+  /* line 13, ../css/scss/elements/counters.scss */
+  .counter.small > span {
+    font-size: 32px !important; }
+  /* line 18, ../css/scss/elements/counters.scss */
+  .counter.medium > span {
+    font-size: 50px !important; }
+  /* line 23, ../css/scss/elements/counters.scss */
+  .counter.large > span {
+    font-size: 62px !important; }
+
+/* line 30, ../css/scss/elements/counters.scss */
+.icon-box.fancy > .counter span {
+  margin: 0 12px 10px 56px; }
+/* line 34, ../css/scss/elements/counters.scss */
+.icon-box.fancy.medium > .counter span {
+  margin: 0 12px 10px 80px; }
+/* line 41, ../css/scss/elements/counters.scss */
+.icon-box.effect:not(.center) > .counter span {
+  margin: 0 12px 10px 82px; }
+/* line 46, ../css/scss/elements/counters.scss */
+.icon-box.effect.large:not(.center) > .counter span {
+  margin: 0 12px 10px 107px; }
+/* line 51, ../css/scss/elements/counters.scss */
+.icon-box.effect.medium:not(.center) > .counter span {
+  margin: 0 12px 10px 82px; }
+/* line 56, ../css/scss/elements/counters.scss */
+.icon-box.effect.small:not(.center) > .counter span {
+  margin: 0 12px 10px 58px;
+  font-size: 32px !important; }

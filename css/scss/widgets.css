@@ -1,0 +1,153 @@
+/* line 6, ../css/scss/widgets.scss */
+.widget {
+  margin-bottom: 60px;
+  position: relative; }
+
+/* line 11, ../css/scss/widgets.scss */
+.sidebar .widget {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 30px;
+  padding-bottom: 30px; }
+  /* line 15, ../css/scss/widgets.scss */
+  .sidebar .widget:last-child {
+    border-bottom: 0; }
+/* line 19, ../css/scss/widgets.scss */
+.sidebar .widget-title::after {
+  border-top: 4px solid #444;
+  content: "";
+  display: block;
+  margin-top: 14px;
+  width: 60px; }
+
+/* line 29, ../css/scss/widgets.scss */
+.widget-tags .tags a {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: #777;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0 2px 5px 0;
+  padding: 5px 7px;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
+  transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s; }
+
+/* line 47, ../css/scss/widgets.scss */
+.widget-archive ul {
+  padding-left: 0; }
+
+/* line 51, ../css/scss/widgets.scss */
+body.device-sm .sidebar .widget {
+  float: left;
+  width: 330px; }
+/* line 55, ../css/scss/widgets.scss */
+body.device-xs .sidebar .widget {
+  width: 100%; }
+/* line 58, ../css/scss/widgets.scss */
+body.device-sm .sidebar .widget:nth-child(odd), body.device-xs .sidebar .widget:nth-child(odd) {
+  margin-right: 30px; }
+
+/* line 65, ../css/scss/widgets.scss */
+footer .widget-tags .tags a {
+  border: 1px solid rgba(255, 255, 255, 0.2); }
+/* line 68, ../css/scss/widgets.scss */
+footer .widget {
+  margin-bottom: 20px; }
+
+/* line 75, ../css/scss/widgets.scss */
+.col-md-3 .flickr-widget img {
+  padding: 2px;
+  width: 25%; }
+
+/* line 79, ../css/scss/widgets.scss */
+body.device-xs .col-md-3 .flickr-widget img {
+  width: 16.666%; }
+
+/* line 82, ../css/scss/widgets.scss */
+.col-md-4 .flickr-widget img {
+  padding: 2px;
+  width: 20%; }
+
+/* line 90, ../css/scss/widgets.scss */
+.widget .footer-widget .social-icon {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+/* line 94, ../css/scss/widgets.scss */
+.footer-widget .social-icon o {
+  color: white; }
+/* line 97, ../css/scss/widgets.scss */
+.footer-widget .social-icon i {
+  color: #fff; }
+
+/* line 104, ../css/scss/widgets.scss */
+.widget.widget-newsletter button {
+  margin-left: -1px; }
+/* line 107, ../css/scss/widgets.scss */
+.widget.widget-newsletter button {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0; }
+/* line 111, ../css/scss/widgets.scss */
+.widget.widget-newsletter .btn {
+  text-transform: none; }
+/* line 114, ../css/scss/widgets.scss */
+.widget.widget-newsletter .form-control {
+  height: 40px; }
+/* line 117, ../css/scss/widgets.scss */
+.widget.widget-newsletter .btn {
+  font-size: 12px;
+  font-weight: 600;
+  height: 40px;
+  padding: 8px 16px; }
+/* line 123, ../css/scss/widgets.scss */
+.widget.widget-newsletter label.error {
+  color: #e42c3e;
+  display: none !important;
+  font-weight: 400;
+  margin-top: 5px; }
+
+/* line 131, ../css/scss/widgets.scss */
+.background-dark .widget.widget-newsletter .input-group-addon {
+  background-color: #fff;
+  color: #fff; }
+/* line 135, ../css/scss/widgets.scss */
+.background-dark .widget.widget-newsletter .form-transparent-fields .form-control {
+  border-left: 0;
+  padding-left: 0; }
+
+/* line 140, ../css/scss/widgets.scss */
+.form-control.error,
+.sm-form-control.error {
+  border-color: #e42c3e; }
+
+/* line 144, ../css/scss/widgets.scss */
+.widget-newsletter small {
+  display: block; }
+
+/* line 151, ../css/scss/widgets.scss */
+.widget.widget-search button {
+  margin-left: -1px; }
+/* line 154, ../css/scss/widgets.scss */
+.widget.widget-search button {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0; }
+/* line 158, ../css/scss/widgets.scss */
+.widget.widget-search .btn {
+  text-transform: none; }
+/* line 161, ../css/scss/widgets.scss */
+.widget.widget-search .btn {
+  font-size: 12px;
+  font-weight: 600;
+  height: 40px;
+  padding: 8px 16px; }
+
+/* line 168, ../css/scss/widgets.scss */
+.background-dark .widget.widget-search .input-group-addon {
+  background-color: rgba(0, 0, 0, 0.35);
+  border-color: rgba(0, 0, 0, 0.25);
+  color: #999; }
+
+/* line 175, ../css/scss/widgets.scss */
+#widget-contact-form {
+  clear: left; }

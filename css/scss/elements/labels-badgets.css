@@ -1,0 +1,15 @@
+/* line 4, ../css/scss/elements/labels-badgets.scss */
+.label-default {
+  background: -webkit-linear-gradient(top, #f37054 0px, #e66346 100%) repeat scroll 0 0 #e66346;
+  background: linear-gradient(to bottom, #f37054 0px, #e66346 100%) repeat scroll 0 0 #e66346;
+  color: #ffffff; }
+
+/* line 9, ../css/scss/elements/labels-badgets.scss */
+.main-menu .label,
+.sidebar-menu .label {
+  padding: 1px 3px;
+  margin: 0 3px; }
+
+/* line 14, ../css/scss/elements/labels-badgets.scss */
+.badge {
+  margin-right: 10px; }

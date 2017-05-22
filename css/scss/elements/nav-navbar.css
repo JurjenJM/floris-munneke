@@ -1,0 +1,8 @@
+/* line 5, ../css/scss/elements/nav-navbar.scss */
+.navbar .form-control {
+  height: 34px;
+  padding: 6px 12px; }
+/* line 9, ../css/scss/elements/nav-navbar.scss */
+.navbar .btn {
+  border-radius: 0;
+  padding: 5px 16px 7px; }

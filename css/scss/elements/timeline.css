@@ -1,0 +1,153 @@
+/* line 6, ../css/scss/elements/timeline.scss */
+.timeline {
+  margin-bottom: 60px; }
+  /* line 8, ../css/scss/elements/timeline.scss */
+  .timeline:before {
+    background-color: #ccc;
+    bottom: 0;
+    content: " ";
+    left: 50%;
+    margin-left: -1.5px;
+    position: absolute;
+    top: 0;
+    width: 4px; }
+
+/* line 19, ../css/scss/elements/timeline.scss */
+.timeline,
+.timeline-circles {
+  list-style: none;
+  padding: 20px 0 20px;
+  position: relative; }
+
+/* line 26, ../css/scss/elements/timeline.scss */
+.timeline-circles:before, .timeline-circles:after {
+  background-color: #ccc;
+  border-radius: 10px;
+  content: " ";
+  height: 20px;
+  left: 50%;
+  margin-left: -10px;
+  position: absolute;
+  width: 20px; }
+/* line 37, ../css/scss/elements/timeline.scss */
+.timeline-circles:before {
+  top: -25px; }
+/* line 40, ../css/scss/elements/timeline.scss */
+.timeline-circles:after {
+  bottom: -40px; }
+
+/* line 45, ../css/scss/elements/timeline.scss */
+.timeline li.timeline-date {
+  margin-bottom: 25px; }
+/* line 48, ../css/scss/elements/timeline.scss */
+.timeline li:nth-child(2) {
+  margin-top: 0 !important; }
+/* line 52, ../css/scss/elements/timeline.scss */
+.timeline li:before, .timeline li:after {
+  content: " ";
+  display: table; }
+/* line 57, ../css/scss/elements/timeline.scss */
+.timeline li:after {
+  clear: both; }
+/* line 60, ../css/scss/elements/timeline.scss */
+.timeline li .timeline-block {
+  padding: 0 10px;
+  position: relative;
+  width: 48%;
+  float: left; }
+/* line 67, ../css/scss/elements/timeline.scss */
+.timeline.timeline-transparent .timeline-block .post-item {
+  background-color: #fff;
+  padding: 20px; }
+
+/* line 76, ../css/scss/elements/timeline.scss */
+.timeline li .timeline-block:before {
+  position: absolute;
+  top: 8px;
+  right: -4%;
+  display: inline-block;
+  border-top: 15px solid transparent;
+  border-right: 15px solid #ccc;
+  border-left: 0 solid #ccc;
+  border-bottom: 15px solid transparent;
+  content: " "; }
+/* line 87, ../css/scss/elements/timeline.scss */
+.timeline li .timeline-block .timeline-block-content {
+  height: 100% !important;
+  overflow: hidden; }
+
+/* line 92, ../css/scss/elements/timeline.scss */
+.timeline-block-content h3 {
+  margin-top: 0; }
+
+/* line 95, ../css/scss/elements/timeline.scss */
+.timeline-block-image,
+.timeline-block-embed {
+  border-bottom: 5px solid #ddd;
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+  width: 100%; }
+
+/* line 103, ../css/scss/elements/timeline.scss */
+.timeline-block-image {
+  max-height: 200px; }
+  /* line 105, ../css/scss/elements/timeline.scss */
+  .timeline-block-image img {
+    margin-top: -10%;
+    width: 100%; }
+  /* line 109, ../css/scss/elements/timeline.scss */
+  .timeline-block-image iframe {
+    width: 100%;
+    height: 100%; }
+
+/* line 116, ../css/scss/elements/timeline.scss */
+.timeline li:nth-child(2n+1) .timeline-block {
+  padding: 20px 0 0 10px;
+  float: right; }
+  /* line 119, ../css/scss/elements/timeline.scss */
+  .timeline li:nth-child(2n+1) .timeline-block:before {
+    border-right-width: 0;
+    border-left-width: 15px;
+    left: -4%;
+    right: auto;
+    top: 22px; }
+  /* line 126, ../css/scss/elements/timeline.scss */
+  .timeline li:nth-child(2n+1) .timeline-block:after {
+    border-left-width: 0;
+    border-right-width: 15px;
+    left: -4%;
+    right: auto; }
+
+/* line 139, ../css/scss/elements/timeline.scss */
+body.device-xs .timeline:before, body.device-xs .timeline-circles:before, body.device-xs .timeline-circles:after, body.device-xs .timeline li:not(.timeline-date)::before, body.device-xxs .timeline:before, body.device-xxs .timeline-circles:before, body.device-xxs .timeline-circles:after, body.device-xxs .timeline li:not(.timeline-date)::before {
+  left: 0; }
+/* line 151, ../css/scss/elements/timeline.scss */
+body.device-xs .timeline-date, body.device-xxs .timeline-date {
+  margin-left: 3px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0; }
+/* line 159, ../css/scss/elements/timeline.scss */
+body.device-xs .timeline li .timeline-block, body.device-xxs .timeline li .timeline-block {
+  float: left;
+  margin-left: 10px;
+  width: 100% !important;
+  padding-left: 10px; }
+/* line 166, ../css/scss/elements/timeline.scss */
+body.device-xs .timeline li .timeline-block, body.device-xxs .timeline li .timeline-block, body.device-xs .timeline li:nth-child(2n+1) .timeline-block, body.device-xxs .timeline li:nth-child(2n+1) .timeline-block {
+  padding: 20px 10px 0 20px; }
+/* line 174, ../css/scss/elements/timeline.scss */
+body.device-xs .timeline li .timeline-block:before, body.device-xxs .timeline li .timeline-block:before {
+  left: -8px;
+  right: auto;
+  border-left-width: 15px;
+  border-right-width: 0; }
+/* line 180, ../css/scss/elements/timeline.scss */
+body.device-xs .timeline li .timeline-block:after, body.device-xxs .timeline li .timeline-block:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto; }
+/* line 186, ../css/scss/elements/timeline.scss */
+body.device-xs .timeline.timeline-simple .timeline-date, body.device-xxs .timeline.timeline-simple .timeline-date {
+  margin-left: -1px; }

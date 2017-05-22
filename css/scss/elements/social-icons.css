@@ -1,0 +1,278 @@
+/* line 3, ../css/scss/elements/social-icons.scss */
+.social-icons ul {
+  padding: 0; }
+
+/* line 6, ../css/scss/elements/social-icons.scss */
+.text-center.social-icons ul {
+  display: inline-block; }
+
+/* line 9, ../css/scss/elements/social-icons.scss */
+.social-icons li {
+  float: left;
+  list-style: none; }
+
+/* line 13, ../css/scss/elements/social-icons.scss */
+.social-icons li a {
+  float: left;
+  height: 32px;
+  width: 32px;
+  line-height: 32px;
+  font-size: 16px;
+  text-align: center;
+  margin: 0 8px 8px 0;
+  border-radius: 4px;
+  border: 0;
+  background: transparent;
+  color: #333;
+  overflow: hidden;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease; }
+
+/* line 33, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored a,
+.social-icons.social-icons-colored-hover a:hover {
+  color: #fff;
+  border: 0; }
+
+/* line 38, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored .social-rss a,
+.social-icons.social-icons-colored-hover .social-rss a:hover {
+  background-color: #faa33d; }
+
+/* line 42, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored .social-facebook a,
+.social-icons.social-icons-colored-hover .social-facebook a:hover {
+  background-color: #5d82d1; }
+
+/* line 46, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored .social-twitter a,
+.social-icons.social-icons-colored-hover .social-twitter a:hover {
+  background-color: #40bff5; }
+
+/* line 50, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored .social-vimeo a,
+.social-icons.social-icons-colored-hover .social-vimeo a:hover {
+  background-color: #35c6ea; }
+
+/* line 54, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored .social-myspace a,
+.social-icons.social-icons-colored-hover .social-myspace a:hover {
+  background-color: #008dde; }
+
+/* line 58, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored .social-youtube a,
+.social-icons.social-icons-colored-hover .social-youtube a:hover {
+  background-color: #ef4e41; }
+
+/* line 62, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored .social-instagram a,
+.social-icons.social-icons-colored-hover .social-instagram a:hover {
+  background-color: #548bb6; }
+
+/* line 66, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored .social-gplus a,
+.social-icons.social-icons-colored-hover .social-gplus a:hover {
+  background-color: #d68400; }
+
+/* line 70, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored .social-stumbleupon a,
+.social-icons.social-icons-colored-hover .social-stumbleupon a:hover {
+  background-color: #ff5c30; }
+
+/* line 74, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored .social-lastfm a,
+.social-icons.social-icons-colored-hover .social-lastfm a:hover {
+  background-color: #f34320; }
+
+/* line 78, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored .social-pinterest a,
+.social-icons.social-icons-colored-hover .social-pinterest a:hover {
+  background-color: #e13138; }
+
+/* line 82, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored .social-google a,
+.social-icons.social-icons-colored-hover .social-google a:hover {
+  background-color: #eb5e4c; }
+
+/* line 86, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored .social-evernote a,
+.social-icons.social-icons-colored-hover .social-evernote a:hover {
+  background-color: #9acf4f; }
+
+/* line 90, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored .social-dribbble a,
+.social-icons.social-icons-colored-hover .social-dribbble a:hover {
+  background-color: #f7659c; }
+
+/* line 94, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored .social-skype a,
+.social-icons.social-icons-colored-hover .social-skype a:hover {
+  background-color: #13c1f3; }
+
+/* line 98, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored .social-forrst a,
+.social-icons.social-icons-colored-hover .social-forrst a:hover {
+  background-color: #45ad76; }
+
+/* line 102, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored .social-linkedin a,
+.social-icons.social-icons-colored-hover .social-linkedin a:hover {
+  background-color: #238cc8; }
+
+/* line 106, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored .social-wordpress a,
+.social-icons.social-icons-colored-hover .social-wordpress a:hover {
+  background-color: #2592c3; }
+
+/* line 110, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored .social-grooveshark a,
+.social-icons.social-icons-colored-hover .social-grooveshark a:hover {
+  background-color: #ffb21d; }
+
+/* line 114, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored .social-delicious a,
+.social-icons.social-icons-colored-hover .social-delicious a:hover {
+  background-color: #377bda; }
+
+/* line 118, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored .social-behance a,
+.social-icons.social-icons-colored-hover .social-behance a:hover {
+  background-color: #1879fd; }
+
+/* line 122, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored .social-dropbox a,
+.social-icons.social-icons-colored-hover .social-dropbox a:hover {
+  background-color: #17a3eb; }
+
+/* line 126, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored .social-soundcloud a,
+.social-icons.social-icons-colored-hover .social-soundcloud a:hover {
+  background-color: #ff7e30; }
+
+/* line 130, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored .social-deviantart a,
+.social-icons.social-icons-colored-hover .social-deviantart a:hover {
+  background-color: #6a8a7b; }
+
+/* line 134, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored .social-yahoo a,
+.social-icons.social-icons-colored-hover .social-yahoo a:hover {
+  background-color: #ab47ac; }
+
+/* line 138, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored .social-flickr a,
+.social-icons.social-icons-colored-hover .social-flickr a:hover {
+  background-color: #ff48a3; }
+
+/* line 142, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored .social-digg a,
+.social-icons.social-icons-colored-hover .social-digg a:hover {
+  background-color: #75788d; }
+
+/* line 146, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored .social-blogger a,
+.social-icons.social-icons-colored-hover .social-blogger a:hover {
+  background-color: #ff9233; }
+
+/* line 150, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored .social-tumblr a,
+.social-icons.social-icons-colored-hover .social-tumblr a:hover {
+  background-color: #426d9b; }
+
+/* line 154, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored .social-quora a,
+.social-icons.social-icons-colored-hover .social-quora a:hover {
+  background-color: #ea3d23; }
+
+/* line 158, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored .social-github a,
+.social-icons.social-icons-colored-hover .social-github a:hover {
+  background-color: #3f91cb; }
+
+/* line 162, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored .social-amazon a,
+.social-icons.social-icons-colored-hover .social-amazon a:hover {
+  background-color: #ff8e2e; }
+
+/* line 166, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored .social-xing a,
+.social-icons.social-icons-colored-hover .social-xing a:hover {
+  background-color: #1a8e8c; }
+
+/* line 170, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-colored .social-wikipedia a,
+.social-icons.social-icons-colored-hover .social-wikipedia a:hover {
+  background-color: #b3b5b8; }
+
+/* line 177, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-border li a {
+  border: 1px solid #eee;
+  background: transparent;
+  color: #333; }
+
+/* line 185, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-dark li a {
+  background: #888;
+  color: #fff; }
+
+/* line 192, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-light li a {
+  background: #fff;
+  color: #333;
+  border: 1px solid #eee; }
+
+/* line 200, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-rounded li a {
+  border-radius: 50%; }
+
+/* line 206, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-medium li a {
+  height: 42px;
+  width: 42px;
+  line-height: 42px;
+  font-size: 18px;
+  margin: 0 10px 10px 0; }
+
+/* line 216, ../css/scss/elements/social-icons.scss */
+.social-icons.social-icons-large li a {
+  height: 48px;
+  width: 48px;
+  line-height: 48px;
+  font-size: 18px;
+  margin: 0 10px 10px 0; }
+
+/* line 223, ../css/scss/elements/social-icons.scss */
+.social-icons:not(.social-icons-colored):not(.social-icons-colored-hover) li a:hover {
+  background-color: #eee; }
+
+/* line 226, ../css/scss/elements/social-icons.scss */
+.social-icons li:hover i {
+  -webkit-animation: toTopFromBottom 0.3s forwards;
+  -moz-animation: toTopFromBottom 0.3s forwards;
+  animation: toTopFromBottom 0.3s forwards; }
+
+@-webkit-keyframes toTopFromBottom {
+  49% {
+    -webkit-transform: translateY(-100%); }
+  50% {
+    opacity: 0;
+    -webkit-transform: translateY(100%); }
+  51% {
+    opacity: 1; } }
+@-moz-keyframes toTopFromBottom {
+  49% {
+    -moz-transform: translateY(-100%); }
+  50% {
+    opacity: 0;
+    -moz-transform: translateY(100%); }
+  51% {
+    opacity: 1; } }
+@keyframes toTopFromBottom {
+  49% {
+    transform: translateY(-100%); }
+  50% {
+    opacity: 0;
+    transform: translateY(100%); }
+  51% {
+    opacity: 1; } }

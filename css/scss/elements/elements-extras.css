@@ -1,0 +1,29 @@
+/* line 5, ../css/scss/elements/elements-extras.scss */
+.box-fancy > .container {
+  padding: 0 30px; }
+/* line 8, ../css/scss/elements/elements-extras.scss */
+.box-fancy [class*="col-"] {
+  padding: 5% !important; }
+/* line 11, ../css/scss/elements/elements-extras.scss */
+.box-fancy.fancy-box-over {
+  top: -100px; }
+
+/* line 15, ../css/scss/elements/elements-extras.scss */
+body.device-xxs .box-fancy [class*="col-"] {
+  padding: 10% !important; }
+
+/* line 18, ../css/scss/elements/elements-extras.scss */
+.over-slider-top {
+  top: -100px; }
+
+/* line 25, ../css/scss/elements/elements-extras.scss */
+.site-map i {
+  margin-right: 8px; }
+/* line 28, ../css/scss/elements/elements-extras.scss */
+.site-map ul li {
+  padding-bottom: 2px; }
+
+/* line 36, ../css/scss/elements/elements-extras.scss */
+.animated.infinite {
+  animation-duration: 3s;
+  animation-fill-mode: both; }

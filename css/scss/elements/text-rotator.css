@@ -1,0 +1,7 @@
+/* line 5, ../css/scss/elements/text-rotator.scss */
+.text-rotator > span {
+  display: none; }
+/* line 8, ../css/scss/elements/text-rotator.scss */
+.text-rotator > .animated {
+  display: inline-block;
+  opacity: 1; }

@@ -1,0 +1,121 @@
+/* line 6, ../css/scss/elements/client-logos.scss */
+.grid li,
+.clients-carousel a,
+.clients-carousel a img {
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  opacity: 0.8; }
+
+/* line 14, ../css/scss/elements/client-logos.scss */
+.parallax .clients-carousel a {
+  opacity: 1; }
+
+/* line 18, ../css/scss/elements/client-logos.scss */
+.grid li:hover,
+.clients-carousel a:hover,
+.clients-carousel a:hover img {
+  opacity: 1;
+  cursor: pointer; }
+
+/* line 24, ../css/scss/elements/client-logos.scss */
+.client-carousel .owl-item img,
+.clients-logo .owl-item img {
+  padding: 20px; }
+
+/* line 28, ../css/scss/elements/client-logos.scss */
+.grid {
+  padding: 0;
+  list-style: none;
+  overflow: hidden; }
+  /* line 32, ../css/scss/elements/client-logos.scss */
+  .grid li {
+    float: left;
+    position: relative;
+    width: 20%;
+    padding: 20px; }
+  /* line 39, ../css/scss/elements/client-logos.scss */
+  .grid.grid-2-columns li,
+  .grid.grid-2-columns figure {
+    width: 50%; }
+  /* line 45, ../css/scss/elements/client-logos.scss */
+  .grid.grid-3-columns li,
+  .grid.grid-3-columns figure {
+    width: 33.333333%; }
+  /* line 51, ../css/scss/elements/client-logos.scss */
+  .grid.grid-4-columns li,
+  .grid.grid-4-columns figure {
+    width: 25%; }
+  /* line 57, ../css/scss/elements/client-logos.scss */
+  .grid.grid-5-columns li,
+  .grid.grid-5-columns figure {
+    width: 20%; }
+  /* line 63, ../css/scss/elements/client-logos.scss */
+  .grid.grid-6-columns li,
+  .grid.grid-6-columns figure {
+    width: 16.6666666%; }
+  /* line 68, ../css/scss/elements/client-logos.scss */
+  .grid li:hover {
+    cursor: pointer;
+    background-color: #f8f8f8; }
+  /* line 72, ../css/scss/elements/client-logos.scss */
+  .grid li a,
+  .grid li img {
+    display: block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto; }
+  /* line 80, ../css/scss/elements/client-logos.scss */
+  .grid li a img {
+    width: 100%; }
+  /* line 83, ../css/scss/elements/client-logos.scss */
+  .grid li:before,
+  .grid li :after {
+    content: '';
+    position: absolute; }
+  /* line 88, ../css/scss/elements/client-logos.scss */
+  .grid li:before {
+    height: 100%;
+    top: 0;
+    left: -1px;
+    border-left: 1px solid #eee; }
+  /* line 94, ../css/scss/elements/client-logos.scss */
+  .grid li:after {
+    width: 100%;
+    height: 0;
+    top: auto;
+    left: 0;
+    bottom: -1px;
+    border-bottom: 1px solid #eee; }
+  /* line 104, ../css/scss/elements/client-logos.scss */
+  .grid.clients-grey {
+    border: 1px solid #ddd; }
+    /* line 106, ../css/scss/elements/client-logos.scss */
+    .grid.clients-grey li {
+      background-color: #eee; }
+      /* line 108, ../css/scss/elements/client-logos.scss */
+      .grid.clients-grey li:before {
+        border-left: 1px solid #ccc; }
+      /* line 111, ../css/scss/elements/client-logos.scss */
+      .grid.clients-grey li:after {
+        border-bottom: 1px solid #ccc; }
+  /* line 116, ../css/scss/elements/client-logos.scss */
+  .grid.clients-border {
+    border-width: 10px; }
+
+/* line 124, ../css/scss/elements/client-logos.scss */
+.carousel-description-clients .carousel {
+  margin-top: 40px; }
+/* line 127, ../css/scss/elements/client-logos.scss */
+.carousel-description-clients .owl-prev,
+.carousel-description-clients .owl-next {
+  margin-top: -40px !important; }
+
+/* line 136, ../css/scss/elements/client-logos.scss */
+body.device-sm .carousel-description-clients .owl-controls, body.device-xs .carousel-description-clients .owl-controls, body.device-xxs .carousel-description-clients .owl-controls {
+  display: none; }
+/* line 142, ../css/scss/elements/client-logos.scss */
+body.device-sm .grid li, body.device-xs .grid li {
+  width: 33.33%; }
+/* line 147, ../css/scss/elements/client-logos.scss */
+body.device-xxs .grid li {
+  width: 50%; }

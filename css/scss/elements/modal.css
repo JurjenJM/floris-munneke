@@ -1,0 +1,22 @@
+/* line 4, ../css/scss/elements/modal.scss */
+.modal-content {
+  border-radius: 4px;
+  padding: 10px; }
+
+/* line 8, ../css/scss/elements/modal.scss */
+.modal-title::after {
+  border-top: 1px solid #eee;
+  content: "";
+  display: block;
+  height: 1px;
+  margin: 16px 0 -12px;
+  width: 100%; }
+
+/* line 16, ../css/scss/elements/modal.scss */
+.modal-header,
+.modal-footer {
+  border: none; }
+
+/* line 20, ../css/scss/elements/modal.scss */
+.modal-backdrop {
+  bottom: 0; }

@@ -1,0 +1,33 @@
+/* line 4, ../css/scss/elements/yt-player.scss */
+#youtube-background-controls {
+  background: none;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 60px;
+  position: relative;
+  width: 60px; }
+  /* line 11, ../css/scss/elements/yt-player.scss */
+  #youtube-background-controls .fa {
+    font-size: 23px;
+    line-height: 40px; }
+  /* line 15, ../css/scss/elements/yt-player.scss */
+  #youtube-background-controls .fa-pause,
+  #youtube-background-controls .fa-play {
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    opacity: 0;
+    position: absolute;
+    left: 19px;
+    top: 9px; }
+  /* line 24, ../css/scss/elements/yt-player.scss */
+  #youtube-background-controls .fa-play {
+    left: 22px; }
+  /* line 27, ../css/scss/elements/yt-player.scss */
+  #youtube-background-controls .fa-pause {
+    opacity: 1; }
+  /* line 31, ../css/scss/elements/yt-player.scss */
+  #youtube-background-controls.video-is-playing .fa-play {
+    opacity: 1; }
+  /* line 34, ../css/scss/elements/yt-player.scss */
+  #youtube-background-controls.video-is-playing .fa-pause {
+    opacity: 0; }
